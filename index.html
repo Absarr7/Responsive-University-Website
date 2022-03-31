@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/images/logo.png" alt="LOGO"></a>
+
+            <div class="navlinks" id="nav-links">
+                <i class="fa-solid fa-xmark" id="close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">COURSES</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" id="bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>Standford University</h1>
+            <p>Our University provides the best education around the Globe. We have our Universities in every country of the world. <br> We help students to express their creativity in front of the world.</p>
+            <a href="#" class="entroll-btn">Visit uS to know More</a>
+        </div>
+
+    </section>
+
+    <!-- Course -->
+
+    <section class="course">
+        <h1>Courese We Offer</h1>
+        <p>We offer a wide range of courses to our students, all of them are the best!</p>
+
+        <!-- Columns -->
+        <div class="row">
+            <div class="course-col glass">
+                <h3>Computer Science</h3>
+                <p>In the Era of technology, Students are taking interests in Tech. Also as a software engineer you get to work with the top companies in the world with a high package of salary.</p>
+            </div>
+
+            <div class="course-col glass">
+                <h3>Master of Business</h3>
+                <p>With the growth of Internet, Companies aquire someone who can scale their business with their Business skills. hence, Companies tends to give a lot of money to MBA Graduates.</p>
+            </div>
+
+            <div class="course-col glass">
+                <h3>Entrepreneurship</h3>
+                <p>The past few years have seen the tremendous rise of startups, which have brought massive changes. Going for entrepreneurship and startups courses will be a great choice for the future. </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Section -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Check out our tremendous archtechted campuses.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="/images/london.png">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="/images/newyork.png">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="/images/washington.png">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
